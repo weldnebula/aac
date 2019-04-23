@@ -51,14 +51,13 @@
                     <button class="btn btn-secondary dropdown-toggle btn-sm mt-1 h-auto bg-secondary text-white ml-2" type="button" id="div-hardware" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #b8b8b8; border-top-color: #ffffff; border-left-color: #ffffff; border-right-color: #000000; border-bottom-color: #000000; border-style: outset;"></button>
                     <div class="dropdown-menu" aria-labelledby="div-hardware"> 
                         <h1 class="dropdown-header display-1">HARDWARE</h1>
-                        <a class="dropdown-item" href="#">CPU</a> 
-                        <a class="dropdown-item" href="#">RAM</a> 
-                        <a class="dropdown-item" href="#">ROM</a> 
-                        <a class="dropdown-item" href="#">Storage Devices</a> 
-                        <a class="dropdown-item" href="#">Input Devices</a> 
-                        <a class="dropdown-item" href="#">Output Devices</a> 
-                        <a class="dropdown-item" href="#">Communication Devices</a> 
-                        <a class="dropdown-item" href="#">Circuitry</a> 
+                        <a class="dropdown-item" href="#">All about CPUs</a> 
+                        <a class="dropdown-item" href="#">All about memory</a>
+                        <a class="dropdown-item" href="#">All about main circuitry</a> 
+                        <a class="dropdown-item" href="#">All about input devices</a> 
+                        <a class="dropdown-item" href="#">All about output devices</a>
+                        <a class="dropdown-item" href="#">All about storage devices</a> 
+                        <a class="dropdown-item" href="#">All about communication devices</a> 
                     </div>                     
                 </div>
             </div>
@@ -66,43 +65,135 @@
                 <button class="btn btn-secondary dropdown-toggle btn-sm mt-1 mr-lg-2" type="button" id="ThisPage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-style: outset; border-top-color: #ffffff; border-left-color: #ffffff;">This Page</button>
                 <div class="dropdown-menu" aria-labelledby="ThisPage" style=" box-shadow: 0px 5px 20px 0px #585858;"> 
                     <a class="dropdown-item" href="#">Top</a>
-                    <a class="dropdown-item" href="#influences">Industry Influences</a>
-                    <a class="dropdown-item" href="#whatisacomputer">What is a Computer?</a> 
-                    <a class="dropdown-item ml-3" href="#components">Components</a>
+                    <a class="dropdown-item" href="#core-hardware">Core Hardware</a> 
+                    <a class="dropdown-item ml-3" href="#cpu">Central Processing Unit</a> 
+                    <a class="dropdown-item ml-3" href="#rom">Read-Only Memory</a> 
+                    <a class="dropdown-item ml-3" href="#ram">Main Memory</a> 
+                    <a class="dropdown-item ml-3" href="#circuitry">Electronic Circuitry</a>
+                    <a class="dropdown-item" href="#input-device">Input Device</a> 
+                    <a class="dropdown-item" href="#output-device">Output Device</a> 
+                    <a class="dropdown-item" href="#storage-device">Storage Device</a> 
+                    <a class="dropdown-item" href="#communication-device">Communication Device</a>
                 </div>                 
             </div>
         </div>
-        <div style="z-index: 5; margin-top: 120px; border-top-color: #262626; margin-bottom: 80px;" class="container-fluid pl-lg-5 pr-lg-5 ">
-            <p style="font-family: Expletus Sans; font-size: 20px; font-variant: small-caps; padding-top: 12px;" class="text-center font-weight-bold">Hardware&nbsp;(things you can touch)</p>
-            <p>Computer hardware is the set of devices that combine to do the computing. On this site, we use the term "computing" to refer to all of the tasks that are essential to producing usable results.</p>
-            <ul>
-                <li>Manipulating data and hardware as directed by instructions</li>
-                <li>Keeping data and instructions available for quick access</li>
-                <li>Storing the data before and after it has been manipulated</li>
-                <li>Controlling the computer's essential and non-essential hardware</li>
-                <li>Receiving data and instructions from a user</li>
-                <li>Showing the results of data manipulation to the user</li>
-                <li>Exchanging data with other computers</li>
-            </ul>
+        <div style="z-index: 5; margin-top: 120px; border-top-color: #262626; margin-bottom: 80px; padding-top: 12px;" class="container-fluid pl-lg-5 pr-lg-5 ">
+            <p style="font-family: Expletus Sans; font-size: 20px; font-variant: small-caps;" class="text-center font-weight-bold">Hardware&nbsp;(things you can touch)</p>
+            <p>Computer hardware is the set of devices that combine to do the computing. This page introduces the eight types of hardware that every computer must have in order to perform its <a href="index.html#tasks" target="_self">essential tasks</a>.</p>
             <div class="container-fluid">
                 <div class="row d-block">
                     <div style="background-color: #004558; border-bottom: 3px solid #a1a100; box-shadow: 0px 5px 15px 0px #585858;" class="text-light pl-3 pt-2 pb-0">
-                        <a name="cpu" class="pushdown"></a>
-                        <h3 style="font-family: Expletus Sans; font-variant: small-caps;">Central Processing Unit (CPU)</h3>
+                        <a name="core-hardware" class="pushdown"></a>
+                        <h3 style="font-family: Expletus Sans; font-variant: small-caps;">Core Hardware</h3>
                     </div>
-                    <div>
-                        <p style=" padding-top: 12px;">The CPU is the brain of your computer. It comes in an <i>electronic chip</i> — a combination of billions of <i>transistors</i> and other components, clustered together as tightly as possible to make it run as fast as possible. The typical CPU in a desktop computer looks like a 1-2 inch square of dark gray material, its underside bristling with electrical connecting pins. It manipulates data according to instructions submitted to it by other hardware components, then returns the results.</p>
-                        <p>CPUs recognize a very small set of very simple instructions called <i>machine code</i>. Each instruction accomplishes very little, but they execute billions of instructions per second, which produce most of the activity you see on your computer (and a lot of activity you don't see).</p>
-                        <p>A CPU has a basic problem: It contains no instructions for running the computer when you turn it on. Instead, it looks for instructions on a special memory chip that holds the computer’s basic startup and operating instructions.</p>
+                    <div style="padding-top: 12px;">
+                        <p>Almost every modern computer, from a powerful supercomputer to the phone in your pocket, relies on four core pieces of hardware that are inside the computer case. These devices are essential for a computer to run: the <a href="#cpu"><i>central processing unit</i></a>, the <a href="#rom"><i>read-only memory</i></a>, the <a href="#ram"><i>main memory</i></a>, and the <a href="#circuitry"><i>electronic circuitry</i></a> connecting everything.</p>
+                        <div>
+                            <div style="background-color: #444444; border-bottom: 3px solid #a1a100; box-shadow: 0px 5px 15px 0px #585858;" class="text-light pl-3 pt-2 pb-0">
+                                <a name="cpu" class="pushdown"></a>
+                                <h4 style="font-family: Expletus Sans; font-variant: small-caps;">Central Processing Unit (CPU)</h4>
+                            </div>
+                            <div style="padding-top: 12px;">
+                                <img src="media/Processor_CPU.png" width="120px" alt="Computer CPU image" style="border: 2px solid #a1a100;" class="float-left mr-3 mt-1">
+                                <p>The CPU is the brain of your computer. It's an <i>electronic chip</i> — a combination of billions of <i>transistors</i> and other components, clustered together as tightly as possible to make it run as fast as possible. The typical CPU in a desktop computer looks like a 1-2 inch square of metal or plastic, its underside covered with electrical connecting points. It manipulates data according to instructions submitted to it by other hardware components, then returns the results.</p>
+                                <p>CPUs recognize a very small set of very simple instructions called <i>machine code</i>, and can execute only one instruction at a time. Each instruction accomplishes very little, but a CPU executes billions of instructions per second, which add up to produce most of the activity you see on your computer (and a lot of activity that you don't see).</p>
+                                <p>A CPU has a basic problem: It contains no instructions for running the computer when you turn it on. Instead, it looks for instructions on a special memory chip that holds the computer’s basic startup and operating instructions: <i>read-only memory</i>.</p>
+                                <p class="text-right">For more information about how CPUs work, see <a href="aac_cpus.html">All About CPUs</a>.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div style="background-color: #444444; border-bottom: 3px solid #a1a100; box-shadow: 0px 5px 15px 0px #585858;" class="text-light pl-3 pt-2 pb-0">
+                                <a name="rom" class="pushdown"></a>
+                                <h4 style="font-family: Expletus Sans; font-variant: small-caps;">Read-Only Memory (ROM)</h4>
+                            </div>
+                            <div style="padding-top: 12px;">
+                                <img src="media/664px-AMIBIOS.jpg" width="120px" style="border: 2px solid #a1a100;" class="float-left mr-3 mt-1">
+                                <p>A ROM chip is a type of computer memory that retains its contents whether the computer is on or off. Those contents are very difficult to modify or erase, so ROM is perfect for providing the basic startup and operating instructions that the CPU can always rely on. The instructions on the ROM chip are known as the <i>Basic Input/Output System</i>, or BIOS. The CPU's first task is to get the BIOS instructions from ROM.</p>
+                                <p>There are other ROM chips in a computer, but we rarely discuss them on this site, so when you see any mention of ROM, you can assume we mean the one containing the BIOS.</p>
+                                <p>Getting information from ROM is a relatively slow process compared to the speed of the CPU. If the CPU had to retrieve information from ROM every time it needed help controlling the computer's hardware, it would slow the computer down to a crawl. CPUs have practically no data storage space of their own, so they need the ROM contents to be in a place with the fastest access possible: <i>main memory</i>.</p>
+                                <p class="text-right">For more information about how ROM works, see <a href="aac_memory.html">All About Memory</a>.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div style="background-color: #444444; border-bottom: 3px solid #a1a100; box-shadow: 0px 5px 15px 0px #585858;" class="text-light pl-3 pt-2 pb-0">
+                                <a name="ram" class="pushdown"></a>
+                                <h4 style="font-family: Expletus Sans; font-variant: small-caps;">Main Memory (RAM)</h4>
+                            </div>
+                            <div style="padding-top: 12px;">
+                                <img src="media/MemoryRam.jpg" width="120px" style="border: 2px solid #a1a100;" class="mr-3 mt-1 float-left">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar faucibus neque, nec rhoncus nunc ultrices sit amet. Curabitur ac sagittis neque, vel egestas est. Aenean elementum, erat at aliquet hendrerit, elit nisl posuere tortor, id suscipit diam dui sed nisi. Morbi sollicitudin massa vel tortor consequat, eget semper nisl fringilla. Maecenas at hendrerit odio. Sed in mi eu quam suscipit bibendum quis at orci. Pellentesque fermentum nisl purus, et iaculis lectus pharetra sit amet.</p>
+                                <div class="d-flex mb-3">
+                                    <button type="button" class="btn btn-sm btn-secondary mb-auto" data-toggle="collapse" data-target="#Note_RAM" style="border-style: outset; border-top-color: #b5b5b5; border-bottom-color: #000000; border-left-color: #b5b5b5; border-right-color: #000000; margin-right: 6px;">Why "RAM"?</button>
+                                    <div class="alert alert-secondary collapse mb-auto" id="Note_RAM" style="border: 1px solid #a1a100; background-color: #eeeeee;">"RAM" stands for "random access memory," which means that the CPU can retrieve data equally quickly from any part of the memory chip. Technically, all modern memory chips are random access (including ROM), but for historical reasons we use the acronym "RAM" to refer only to a computer's main memory.</div>
+                                </div>
+                                <p class="text-right">For more information about how RAM works, see <a href="aac_memory.html">All About Memory</a>.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div style="background-color: #444444; border-bottom: 3px solid #a1a100; box-shadow: 0px 5px 15px 0px #585858;" class="text-light pl-3 pt-2 pb-0">
+                                <a name="circuitry" class="pushdown"></a>
+                                <h4 style="font-family: Expletus Sans; font-variant: small-caps;">Electronic Circuitry</h4>
+                            </div>
+                            <div style="padding-top: 12px;">
+                                <img src="media/1200px-Acer_E360_Socket_939_motherboard_by_Foxconn.svg.png" style="cursor: pointer; border: 2px solid #0000ff;" width="150px" data-toggle="modal" data-target="#motherboard" class="float-left mr-3 mt-1">
+                                <div class="modal" id="motherboard" tabindex="-1" aria-hidden="true"> 
+                                    <!--  modal-dialog-centered modal-dialog-scrollable -->
+                                    <div class="modal-lg mw-100"> 
+                                        <!-- modal-dialog  -->
+                                        <div class="modal-content">
+                                            <div class="modal-header">A typical desktop motherboard
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="media/1200px-Acer_E360_Socket_939_motherboard_by_Foxconn.svg.png" alt="Motherboard image" class="bg-white" width="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar faucibus neque, nec rhoncus nunc ultrices sit amet. Curabitur ac sagittis neque, vel egestas est. Aenean elementum, erat at aliquet hendrerit, elit nisl posuere tortor, id suscipit diam dui sed nisi. Morbi sollicitudin massa vel tortor consequat, eget semper nisl fringilla. Maecenas at hendrerit odio. Sed in mi eu quam suscipit bibendum quis at orci. Pellentesque fermentum nisl purus, et iaculis lectus pharetra sit amet.</p>
+                                <p class="text-right">For more information about how computer circuitry works, see <a href="aac_circuitry.html">All About Circuitry</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-block" style="padding-top: 12px;">
+                    <div style="background-color: #004558; border-bottom: 3px solid #a1a100; box-shadow: 0px 5px 15px 0px #585858;" class="text-light pl-3 pt-2 pb-0">
+                        <a name="input-device" class="pushdown"></a>
+                        <h3 style="font-family: Expletus Sans; font-variant: small-caps;">Input Device</h3>
+                    </div>
+                    <div style="padding-top: 12px;">
+                        <p>
+                            TBD </p>
                     </div>
                 </div>
                 <div class="row d-block">
                     <div style="background-color: #004558; border-bottom: 3px solid #a1a100; box-shadow: 0px 5px 15px 0px #585858;" class="text-light pl-3 pt-2 pb-0">
-                        <a name="rom" class="pushdown"></a>
-                        <h3 style="font-family: Expletus Sans; font-variant: small-caps;">Read-Only Memory (ROM)</h3>
+                        <a name="output-device" class="pushdown"></a>
+                        <h3 style="font-family: Expletus Sans; font-variant: small-caps;">Output Device</h3>
                     </div>
-                    <div>
-                        <p style=" padding-top: 12px;">The ROM chip holds the computer’s basic startup and operating instructions.</p>
+                    <div style="padding-top: 12px;">
+                        <p>
+                            TBD </p>
+                    </div>
+                </div>
+                <div class="row d-block">
+                    <div style="background-color: #004558; border-bottom: 3px solid #a1a100; box-shadow: 0px 5px 15px 0px #585858;" class="text-light pl-3 pt-2 pb-0">
+                        <a name="storage-device" class="pushdown"></a>
+                        <h3 style="font-family: Expletus Sans; font-variant: small-caps;">Storage Device</h3>
+                    </div>
+                    <div style="padding-top: 12px;">
+                        <p>
+                            TBD </p>
+                    </div>
+                </div>
+                <div class="row d-block">
+                    <div style="background-color: #004558; border-bottom: 3px solid #a1a100; box-shadow: 0px 5px 15px 0px #585858;" class="text-light pl-3 pt-2 pb-0">
+                        <a name="communication-device" class="pushdown"></a>
+                        <h3 style="font-family: Expletus Sans; font-variant: small-caps;">Communication Device</h3>
+                    </div>
+                    <div style="padding-top: 12px;">
+                        <p>
+                            TBD </p>
                     </div>
                 </div>
             </div>
