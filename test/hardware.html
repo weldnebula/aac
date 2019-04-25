@@ -80,18 +80,19 @@
         <div style="z-index: 5; margin-top: 120px; border-top-color: #262626; margin-bottom: 80px; padding-top: 12px;" class="container-fluid pl-lg-5 pr-lg-5 ">
             <p style="font-family: Expletus Sans; font-size: 20px; font-variant: small-caps;" class="text-center font-weight-bold">Hardware&nbsp;(things you can touch)</p>
             <p>Computer hardware is the set of devices that combine to do the computing. This page introduces the eight types of hardware that every computer must have in order to perform its <a href="index.html#tasks" target="_self">essential tasks</a>.</p>
+            <p class="ml-3"><span class="fas fa-leaf" style="color: #004558;"></span> <a href="#input-device" target="_self">Skip to the high-level stuff</a></p>
             <div class="container-fluid">
                 <div class="row d-block">
                     <div style="background-color: #004558; border-bottom: 3px solid #a1a100; box-shadow: 0px 5px 15px 0px #585858;" class="text-light pl-3 pt-2 pb-0">
                         <a name="core-hardware" class="pushdown"></a>
-                        <h3 style="font-family: Expletus Sans; font-variant: small-caps;">Core Hardware</h3>
+                        <h3 style="font-family: Expletus Sans; font-variant: small-caps;"><i class="fas fa-flask" style="color: #c0c000;"></i> Core Hardware</h3>
                     </div>
                     <div style="padding-top: 12px;">
                         <p>Almost every modern computer, from a powerful supercomputer to the phone in your pocket, relies on four core pieces of hardware that are inside the computer case. These devices are essential for a computer to run: the <a href="#cpu"><i>central processing unit</i></a>, the <a href="#rom"><i>read-only memory</i></a>, the <a href="#ram"><i>main memory</i></a>, and the <a href="#circuitry"><i>electronic circuitry</i></a> connecting everything.</p>
                         <div>
                             <div style="background-color: #444444; border-bottom: 3px solid #a1a100; box-shadow: 0px 5px 15px 0px #585858;" class="text-light pl-3 pt-2 pb-0">
                                 <a name="cpu" class="pushdown"></a>
-                                <h4 style="font-family: Expletus Sans; font-variant: small-caps;">Central Processing Unit (CPU)</h4>
+                                <h4 style="font-family: Expletus Sans; font-variant: small-caps;"><i class="fas fa-flask" style="color: #c0c000;"></i> Central Processing Unit (CPU)</h4>
                             </div>
                             <div style="padding-top: 12px;">
                                 <img src="media/Processor_CPU.png" width="120px" alt="Computer CPU image" style="border: 2px solid #a1a100;" class="float-left mr-3 mt-1">
@@ -104,11 +105,11 @@
                         <div>
                             <div style="background-color: #444444; border-bottom: 3px solid #a1a100; box-shadow: 0px 5px 15px 0px #585858;" class="text-light pl-3 pt-2 pb-0">
                                 <a name="rom" class="pushdown"></a>
-                                <h4 style="font-family: Expletus Sans; font-variant: small-caps;">Read-Only Memory (ROM)</h4>
+                                <h4 style="font-family: Expletus Sans; font-variant: small-caps;"><i class="fas fa-flask" style="color: #c0c000;"></i> Read-Only Memory (ROM)</h4>
                             </div>
                             <div style="padding-top: 12px;">
                                 <img src="media/664px-AMIBIOS.jpg" width="120px" style="border: 2px solid #a1a100;" class="float-left mr-3 mt-1">
-                                <p>A ROM chip is a type of computer memory that retains its contents whether the computer is on or off. Those contents are very difficult to modify or erase, so ROM is perfect for providing the basic startup and operating instructions that the CPU can always rely on. The instructions on the ROM chip are known as the <i>Basic Input/Output System</i>, or BIOS. The CPU's first task is to get the BIOS instructions from ROM.</p>
+                                <p>A ROM chip is a type of computer memory that keeps its contents whether the computer is on or off. Those contents are very hard to change or delete, so ROM is perfect for providing the basic startup and operating instructions that the CPU can always rely on. The instructions on the ROM chip are known as the <i>Basic Input/Output System</i>, or BIOS. The CPU's first task is to get the BIOS instructions from ROM.</p>
                                 <p>There are other ROM chips in a computer, but we rarely discuss them on this site, so when you see any mention of ROM, you can assume we mean the one containing the BIOS.</p>
                                 <p>Getting information from ROM is a relatively slow process compared to the speed of the CPU. If the CPU had to retrieve information from ROM every time it needed help controlling the computer's hardware, it would slow the computer down to a crawl. CPUs have practically no data storage space of their own, so they need the ROM contents to be in a place with the fastest access possible: <i>main memory</i>.</p>
                                 <p class="text-right">For more information about how ROM works, see <a href="aac_memory.html">All About Memory</a>.</p>
@@ -117,12 +118,12 @@
                         <div>
                             <div style="background-color: #444444; border-bottom: 3px solid #a1a100; box-shadow: 0px 5px 15px 0px #585858;" class="text-light pl-3 pt-2 pb-0">
                                 <a name="ram" class="pushdown"></a>
-                                <h4 style="font-family: Expletus Sans; font-variant: small-caps;">Main Memory (RAM)</h4>
+                                <h4 style="font-family: Expletus Sans; font-variant: small-caps;"><i class="fas fa-flask" style="color: #c0c000;"></i> Main Memory (RAM)</h4>
                             </div>
                             <div style="padding-top: 12px;">
                                 <img src="media/MemoryRam.jpg" width="120px" style="border: 2px solid #a1a100;" class="mr-3 mt-1 float-left">
-                                <p>Main memory is designed to enable the fastest possible access to its contents. Unlike a ROM chip from which the CPU can only read, it must also be able to add, update, or remove the contents of a RAM chip at maximum speed. Main memory serves as temporary working space that won't slow down the CPU. As a result, the data in RAM is volatile — it ceases to exist when no power is applied to the RAM chip.</p>
-                                <p>When you turn on a computer, the CPU first moves the BIOS instructions from slow, permanent ROM to fast, volatile RAM, then proceeds to retrieve and execute them from RAM.&nbsp; When you turn the computer off (or the power fails), the main memory is completely cleared of its contents.&nbsp;</p>
+                                <p>Main memory is designed to enable the fastest possible access to its contents. Unlike a ROM chip from which the CPU can only read, it must be able to add, read, update, and delete the contents of a RAM chip, at maximum speed. Main memory serves as temporary working space that won't slow down the CPU. However, the price paid for high speed is impermanence &mdash; the data in RAM ceases to exist when no power is applied to the RAM chip.</p>
+                                <p>When you turn on a computer, the CPU first moves the BIOS instructions from slow, permanent ROM to fast, volatile RAM, then proceeds to retrieve and execute them from RAM.&nbsp; When you turn the computer off (or the power fails), the main memory is completely cleared of its contents. This cycle starts over when the computer is next turned on.</p>
                                 <div class="d-flex mb-3">
                                     <button type="button" class="btn btn-sm btn-secondary mb-auto" data-toggle="collapse" data-target="#Note_RAM" style="border-style: outset; border-top-color: #b5b5b5; border-bottom-color: #000000; border-left-color: #b5b5b5; border-right-color: #000000; margin-right: 6px;">Why "RAM"?</button>
                                     <div class="alert alert-secondary collapse mb-auto" id="Note_RAM" style="border: 1px solid #a1a100; background-color: #eeeeee;">"RAM" stands for "random access memory," which means that the CPU can retrieve data equally quickly from any part of the memory chip. Technically, all modern memory chips are random access (including ROM), but for historical reasons we use the acronym "RAM" to refer only to a computer's main memory.</div>
@@ -133,7 +134,7 @@
                         <div>
                             <div style="background-color: #444444; border-bottom: 3px solid #a1a100; box-shadow: 0px 5px 15px 0px #585858;" class="text-light pl-3 pt-2 pb-0">
                                 <a name="circuitry" class="pushdown"></a>
-                                <h4 style="font-family: Expletus Sans; font-variant: small-caps;">Main Circuitry (Motherboard)</h4>
+                                <h4 style="font-family: Expletus Sans; font-variant: small-caps;"><i class="fas fa-flask" style="color: #c0c000;"></i> Main Circuitry (Motherboard)</h4>
                             </div>
                             <div style="padding-top: 12px;">
                                 <img src="media/1200px-Acer_E360_Socket_939_motherboard_by_Foxconn.svg.png" style="cursor: pointer; border: 2px solid #0000ff;" width="150px" data-toggle="modal" data-target="#motherboard" class="float-left mr-3 mt-1">
@@ -151,7 +152,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar faucibus neque, nec rhoncus nunc ultrices sit amet. Curabitur ac sagittis neque, vel egestas est. Aenean elementum, erat at aliquet hendrerit, elit nisl posuere tortor, id suscipit diam dui sed nisi. Morbi sollicitudin massa vel tortor consequat, eget semper nisl fringilla. Maecenas at hendrerit odio. Sed in mi eu quam suscipit bibendum quis at orci. Pellentesque fermentum nisl purus, et iaculis lectus pharetra sit amet.</p>
+                                <p>For a computer to work, its CPU, ROM, and RAM chips (and all of its other internal components) need to be connected. The computer's main circuitry, known generally as a <i>printed circuit board</i>&nbsp;and more specifically as a <i>motherboard</i>, consists of a flat panel of non-conductive material like plastic or fiberglass with exceptionally thin lines of copper deposited on one or both sides. These copper lines carry electricity between the various components, which are either soldered to the endpoints of the copper paths, or plugged into sockets that are soldered to the endpoints.&nbsp; On many dekstop computers there are sockets for the CPU, ROM,&nbsp; and RAM, for advanced display components and other specialized parts, as well as ports for external hardware along the edges. anything that plugs into a socket or port can be upgraded by the user. On smaller systems most of the components are directly attached and can't be replaced.</p>
                                 <p class="text-right">For more information about how computer circuitry works, see <a href="aac_circuitry.html">All About Circuitry</a>.</p>
                             </div>
                         </div>
@@ -160,7 +161,7 @@
                 <div class="row d-block" style="padding-top: 12px;">
                     <div style="background-color: #004558; border-bottom: 3px solid #a1a100; box-shadow: 0px 5px 15px 0px #585858;" class="text-light pl-3 pt-2 pb-0">
                         <a name="input-device" class="pushdown"></a>
-                        <h3 style="font-family: Expletus Sans; font-variant: small-caps;">Input Device</h3>
+                        <h3 style="font-family: Expletus Sans; font-variant: small-caps;"><i class="fas fa-leaf" style="color: #c0c000;"></i> Input Device</h3>
                     </div>
                     <div style="padding-top: 12px;">
                         <p>
@@ -170,7 +171,7 @@
                 <div class="row d-block">
                     <div style="background-color: #004558; border-bottom: 3px solid #a1a100; box-shadow: 0px 5px 15px 0px #585858;" class="text-light pl-3 pt-2 pb-0">
                         <a name="output-device" class="pushdown"></a>
-                        <h3 style="font-family: Expletus Sans; font-variant: small-caps;">Output Device</h3>
+                        <h3 style="font-family: Expletus Sans; font-variant: small-caps;"><i class="fas fa-leaf" style="color: #c0c000;"></i> Output Device</h3>
                     </div>
                     <div style="padding-top: 12px;">
                         <p>
@@ -180,7 +181,7 @@
                 <div class="row d-block">
                     <div style="background-color: #004558; border-bottom: 3px solid #a1a100; box-shadow: 0px 5px 15px 0px #585858;" class="text-light pl-3 pt-2 pb-0">
                         <a name="storage-device" class="pushdown"></a>
-                        <h3 style="font-family: Expletus Sans; font-variant: small-caps;">Storage Device</h3>
+                        <h3 style="font-family: Expletus Sans; font-variant: small-caps;"><i class="fas fa-leaf" style="color: #c0c000;"></i> Storage Device</h3>
                     </div>
                     <div style="padding-top: 12px;">
                         <p>
@@ -190,7 +191,7 @@
                 <div class="row d-block">
                     <div style="background-color: #004558; border-bottom: 3px solid #a1a100; box-shadow: 0px 5px 15px 0px #585858;" class="text-light pl-3 pt-2 pb-0">
                         <a name="communication-device" class="pushdown"></a>
-                        <h3 style="font-family: Expletus Sans; font-variant: small-caps;">Communication Device</h3>
+                        <h3 style="font-family: Expletus Sans; font-variant: small-caps;"><i class="fas fa-leaf" style="color: #c0c000;"></i> Communication Device</h3>
                     </div>
                     <div style="padding-top: 12px;">
                         <p>
@@ -199,7 +200,7 @@
                 </div>
             </div>
             <nav class="navbar fixed-bottom navbar-dark justify-content-center" style="background-color: #004558; border-bottom: 3px solid #a1a100;">
-                <p style="font-family: Expletus Sans; font-size: 16	px; color: #c0c000;" class="mb-n1">Home page</p>
+                <p style="font-family: Expletus Sans; font-size: 16	px; color: #c0c000;" class="mb-n1">&mdash;</p>
             </nav>
         </div>
         <!-- Bootstrap core JavaScript
