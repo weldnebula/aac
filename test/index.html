@@ -9,7 +9,8 @@
         <title>All About Computers</title>
         <!-- Bootstrap core CSS -->
         <!-- Custom styles for this template -->
-        <link href="https://fonts.googleapis.com/css?family=Expletus+Sans:400,500,600,700|Alegreya+Sans+SC:400,500,700,800,900|Maven+Pro:500,900|Montserrat:400,500,600,700,800,900|Open+Sans:400,600,700,800|Quattrocento+Sans:400,700|Yanone+Kaffeesatz:200,300,400,700|Frank+Ruhl+Libre|PT+Serif|Asap|Assistant|Sarabun|Source+Sans+Pro" rel="stylesheet"> 
+        <link rel="icon" href="favicon.png" sizes="32x32" type="image/png">
+        <link href="https://fonts.googleapis.com/css?family=Expletus+Sans:400,500,600,700|Alegreya+Sans+SC:400,500,700,800,900|Maven+Pro:500,900|Montserrat:400,500,600,700,800,900|Open+Sans:400,600,700,800|Quattrocento+Sans:400,700|Yanone+Kaffeesatz:200,300,400,700|Frank+Ruhl+Libre|PT+Serif|Asap|Assistant|Sarabun|Source+Sans+Pro|Source+Sans+Pro+Black" rel="stylesheet"> 
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="style.css" rel="stylesheet" type="text/css">
         <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
@@ -50,8 +51,8 @@
                 <button class="btn btn-secondary dropdown-toggle btn-sm mt-1 mr-lg-2" type="button" id="ThisPage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-style: outset; border-top-color: #ffffff; border-left-color: #ffffff;">This Page</button>
                 <div class="dropdown-menu" aria-labelledby="ThisPage" style=" box-shadow: 0px 5px 20px 0px #585858;"> 
                     <a class="dropdown-item" href="#" target="_self">Top</a>
-                    <a class="dropdown-item" href="#influences" target="_self">Industry Influences</a>
-                    <a class="dropdown-item" href="#whatisacomputer" target="_self">What is a Computer?</a>
+                    <a class="dropdown-item" href="#influences" target="_self">Industry Influences <span class="fas fa-seedling" style="color: #004558;"></span></a>
+                    <a class="dropdown-item" href="#whatisacomputer" target="_self">What is a Computer? <span class="fas fa-seedling" style="color: #004558;"></span></a>
                     <a class="dropdown-item ml-3" href="#tasks" target="_self">Essential computer tasks</a>
                     <a class="dropdown-item ml-3" href="#components" target="_self">Breaking it down</a>
                 </div>                 
@@ -69,26 +70,31 @@
                 <p>Computers aren't hard to learn, you don't need a license to operate one, and mistakes (on a personal computer) aren't life-threatening. The challenge of learning how to use a computer is minor, and the benefits are potentially life-<i>changing</i>.</p>
                 <h4>Which part of this website should I read?</h4>
                 <p>There's a lot of information here. Use the following icons to focus on what's important to you:</p>
-                <ul class="ml-n3"> 
-                    <li>The leaf icon (
-                        <span class="fas fa-leaf" style="color: #004558;"></span> or 
-                        <span class="fas fa-leaf" style="color: #c0c000;"></span> ) (or no icon) identifies high-level content that everyone should read, whether you're just interested in the basics, or you plan to delve deeper.
+                <ul> 
+                    <li>The seedling icon ( 
+                        <span class="fas fa-seedling" style="color: #004558;"></span> or 
+                        <span class="fas fa-seedling" style="color: #c0c000;"></span> ) (or no icon) identifies high-level content that everyone should read, whether you're just interested in the basics, or you plan to delve deeper.
                     </li>
-                    <li>The flask icon (
+                    <li>The flask icon ( 
                         <span class="fas fa-flask" style="color: #004558;"></span> or 
-                        <span class="fas fa-flask" style="color: #c0c000;"></span> ) identifies sections that you should read only if you really want to immerse yourself in computer science.
-                    </li>                     
+                        <span class="fas fa-flask" style="color: #c0c000;"></span> ) identifies sections that you can read to get a deeper insight into the way computers work.
+                    </li>
+                    <li>The rocket icon ( 
+                        <span class="fas fa-rocket" style="color: #004558;"></span> or 
+                        <span class="fas fa-rocket" style="color: #c0c000;"></span> ) identifies sections that you can read to learn about the low-level concepts that form the basis for computer technology.
+                    </li>
                 </ul>
+                <p><b>But don't be intimidated</b> by the more advanced levels! Everyone is capable of understanding all the material on this site. If you're unsure how much you want to know, start with the <span class="fas fa-seedling" style="color: #004558;"></span> levels, and try reading the <span class="fas fa-flask" style="color: #004558;"></span> content as you encounter it. You'll soon discover your level of interest.</p>
                 <div class="d-flex mb-3">
                     <button type="button" class="btn btn-sm btn-secondary mb-auto" data-toggle="collapse" data-target="#Note_knowledge" style="border-style: outset; border-top-color: #b5b5b5; border-bottom-color: #000000; border-left-color: #b5b5b5; border-right-color: #000000; margin-right: 6px;">NOTE:</button>
-                    <div class="alert alert-secondary collapse mb-auto" id="Note_knowledge" style="border: 1px solid #a1a100; background-color: #eeeeee;">In explaining computer technology on this site (even the more advanced stuff), we sometimes skip over historical and scientific details that a typical computer science course would include. Instead, we stick to the essential knowledge that will demystify computers for you, and leave it to you to investigate those underlying subjects in more detail if you want to.</div>
+                    <div class="alert alert-secondary collapse mb-auto" id="Note_knowledge" style="border: 1px solid #a1a100; background-color: #eeeeee;">In explaining computer technology on this site (even the more advanced stuff), we sometimes skip over historical and scientific details that a typical computer science course would include. </div>
                 </div>
             </div>
             <div class="container-fluid">
                 <div class="row d-block">
                     <div style="background-color: #004558; border-bottom: 3px solid #a1a100; box-shadow: 0px 5px 15px 0px #585858;" class="text-light pl-3 pt-2 pb-0">
                         <a name="influences" class="pushdown"></a>
-                        <h3 style="font-family: Expletus Sans; font-variant: small-caps;"><span class="fas fa-leaf" style="color: #c0c000;"></span> Industry Influences</h3>
+                        <h3 style="font-family: Expletus Sans; font-variant: small-caps;"><span class="fas fa-seedling" style="color: #c0c000;"></span> Industry Influences</h3>
                     </div>
                     <div style="padding-top: 12px;">
                         <h4>How we got here</h4>
@@ -114,7 +120,7 @@
                 <div class="row d-block">
                     <div style="background-color: #004558; border-bottom: 3px solid #a1a100; box-shadow: 0px 5px 15px 0px #585858;" class="text-light pl-3 pt-2 pb-0">
                         <a name="whatisacomputer" class="pushdown"></a>
-                        <h3 style="font-family: Expletus Sans; font-variant: small-caps;"><span class="fas fa-leaf" style="color: #c0c000;"></span> What is a Computer?</h3>
+                        <h3 style="font-family: Expletus Sans; font-variant: small-caps;"><span class="fas fa-seedling" style="color: #c0c000;"></span> What is a Computer?</h3>
                     </div>
                     <div style="padding-top: 12px;">
                         <h4>
@@ -163,19 +169,19 @@
                                             </ul>
                                         </li>
                                         <li class="ml-n3">
-                                            <span class="fas fa-leaf" style="color: #004558;"></span> An 
+                                            <span class="fas fa-seedling" style="color: #004558;"></span> An 
                                             <b>input device</b> to tell the computer what data to process and how to process it.
                                         </li>                                         
                                         <li class="ml-n3">
-                                            <span class="fas fa-leaf" style="color: #004558;"></span> An 
+                                            <span class="fas fa-seedling" style="color: #004558;"></span> An 
                                             <b>output device</b> to show you the results of processing,
                                         </li>                                         
                                         <li class="ml-n3">
-                                            <span class="fas fa-leaf" style="color: #004558;"></span> A 
+                                            <span class="fas fa-seedling" style="color: #004558;"></span> A 
                                             <b>storage device</b> to hold programs and documents.
                                         </li>                                         
                                         <li class="ml-n3">
-                                            <span class="fas fa-leaf" style="color: #004558;"></span> A 
+                                            <span class="fas fa-seedling" style="color: #004558;"></span> A 
                                             <b>communication device</b> to connect the computer to the rest of the world.
                                         </li>                                         
                                     </ul>                                     
@@ -188,14 +194,14 @@
                                     <ul> 
                                         <li class="ml-n3">
                                             <span class="fas fa-flask" style="color: #004558;"></span> The 
-                                            <b>startup instructions</b> to tell the computer how to control its minimum required hardware (best known as the 
-                                            <i>basic input/output system</i> (BIOS)).&nbsp;
+                                            <b>startup instructions</b> (best known as the 
+                                            <i>basic input/output system</i> (BIOS)) that tell the computer how to control its minimum required hardware.&nbsp;
                                         </li>                                         
                                         <li class="ml-n3">
-                                            <span class="fas fa-leaf" style="color: #004558;"></span> The&nbsp;
+                                            <span class="fas fa-seedling" style="color: #004558;"></span> The&nbsp;
                                             <b>operating system</b>, a set of instructions that:
                                             <ul> 
-                                                <li class="ml-n3">Uses the BIOS to control the basic hardware</li>                                                 
+                                                <li class="ml-n3">Takes advantage of the computer's built-in ability to control the basic hardware</li>                                                 
                                                 <li class="ml-n3">Adds the ability to control additional types of hardware</li>                                                 
                                                 <li class="ml-n3">Manages storage space and memory usage</li>                                                 
                                                 <li class="ml-n3">Facilitates the installation, removal, and user interaction with programs</li>                                                 
@@ -204,12 +210,12 @@
                                             </ul>
                                         </li>                                         
                                         <li class="ml-n3">
-                                            <span class="fas fa-leaf" style="color: #004558;"></span> 
+                                            <span class="fas fa-seedling" style="color: #004558;"></span> 
                                             <b>Data</b>
                                             (content), which you manipulate using programs. Types of data include documents, spreadsheets, photographs, web pages, database contents, and millions of other things.&nbsp;
                                         </li>
                                         <li class="ml-n3">
-                                            <span class="fas fa-leaf" style="color: #004558;"></span> 
+                                            <span class="fas fa-seedling" style="color: #004558;"></span> 
                                             <b>Programs</b> (sets of instructions that are also called 
                                             <i>applications</i> or 
                                             <i>apps</i>) dedicated to specific tasks (such as emailing, browsing the web, drawing, playing music or video, managing databases, planning projects, analyzing data, and everything else you can do with a computer.
@@ -218,9 +224,9 @@
                                     <p class="text-right"><a href="software.html" class="text-decoration-none" target="_self">Software page &nbsp;<span class="fas fa-arrow-circle-right mb-n1" style="font-size: 24px;"></span></a></p>
                                 </div>
                                 <div class="col-md-4" style="border: 1px solid #a1a100; background-color: #eeeeee;">
-                                    <h5 class="font-weight-bold" style="line-height: 40px;"><span class="fas fa-leaf" style="color: #004558;"></span> Rules and conventions<a href="rules.html" class="text-decoration-none" target="_self"> &nbsp; <span class="fas fa-arrow-circle-right mb-n1" style="font-size: 24px;"></span></a></h5> 
+                                    <h5 class="font-weight-bold" style="line-height: 40px;">Rules and conventions<a href="rules.html" class="text-decoration-none" target="_self"> &nbsp; <span class="fas fa-arrow-circle-right mb-n1" style="font-size: 24px;"></span></a></h5> 
                                     <p>(Ways of doing things)</p>
-                                    <p>Because a computer's hardware and software components can be produced by different manufacturers, the components must use agreed-upon rules and conventions to communicate with each other and with other systems.</p>
+                                    <p><span class="fas fa-seedling" style="color: #004558;"></span> Because a computer's hardware and software components can be produced by different manufacturers, the components must use agreed-upon rules and conventions to communicate with each other and with other systems.</p>
                                     <ul> 
                                         <li class="ml-n3">A 
                                             <b>rule</b> is a way of doing things that is required by an authority (like a speed limit).&nbsp;
@@ -231,7 +237,7 @@
                                     </ul>
                                     <ul> 
 </ul>
-                                    <p>This category includes standards, protocols, guidelines, languages, algorithms, patterns, regulations, and formats, including the following:</p>
+                                    <p><span class="fas fa-flask" style="color: #004558;"></span> This category includes standards, protocols, guidelines, languages, algorithms, patterns, regulations, and formats, including the following:</p>
                                     <ul> 
                                         <li class="ml-n3">
                                             <b>Programming languages</b>
