@@ -57,17 +57,14 @@
                     <a class="dropdown-item ml-3" href="#components" target="_self">Breaking it down</a>
                 </div>                 
             </div>
+            <div class="row pg-empty-placeholder"></div>
         </div>
         <div style="z-index: 5; margin-top: 120px; border-top-color: #262626; margin-bottom: 80px; padding-top: 12px;" class="container-fluid pl-lg-5 pr-lg-5 ">
             <p style="font-family: Expletus Sans; font-size: 24px;" class="text-center font-weight-bold">All About Computers</p>
             <div class="float-right mb-n3 ml-3">
-                <audio volume="0.2" preload="auto" src="media/welcome.mp3" controls>Your browser doesn't support HTML5 audio.</audio>
+                <audio volume="0.2" preload="auto" src="media/welcome.mp3" controls style="box-shadow: 0px 5px 15px 0px #585858;">Your browser doesn't support HTML5 audio.</audio>
                 <p style="font-size: 14px; color: #004558;" class="text-center ">Speak introduction aloud</p>
             </div>
-            <!-- <div class="container">
-                <span style="font-size: 14px;" class="justify-content-lg-center float-right">Speak introduction aloud: &nbsp;</span>
-                <audio volume="0.2" preload="auto" src="media/welcome.mp3" controls class="mt-lg-2 float-right">Your browser doesn't support HTML5 audio.</audio>
-            </div> -->
             <div>
                 <p>Welcome to <b>All About Computers!</b> This is a resource for regular people to learn how computer technology works. All About Computers doesn't use cookies, and has no advertising.</p>
                 <p>Modern computer technology is everywhere, and computers have become equal to cars in their impact on our lives. In fact, computing devices like mobile phones might now be more essential than cars in helping us to navigate our world.</p>
@@ -75,20 +72,32 @@
                 <p>Computers aren't hard to learn, you don't need a license to operate one, and mistakes (on a personal computer) aren't life-threatening. The challenge of learning how to use a computer is minor, and the benefits are potentially life-<i>changing</i>.</p>
                 <h4>Which part of this website should I read?</h4>
                 <p>There's a lot of information here. Use the following icons to focus on what's important to you:</p>
-                <ul> 
-                    <li>The seedling icon ( 
-                        <span class="fas fa-seedling" style="color: #004558;"></span> or 
-                        <span class="fas fa-seedling" style="color: #c0c000;"></span> or no icon) identifies high-level content that everyone should read, whether you're just interested in the basics, or you plan to delve deeper.
-                    </li>
-                    <li>The flask icon ( 
-                        <span class="fas fa-flask" style="color: #004558;"></span> or 
-                        <span class="fas fa-flask" style="color: #c0c000;"></span> ) identifies sections that you can read to get a deeper insight into the way computers work.
-                    </li>
-                    <li>The rocket icon ( 
-                        <span class="fas fa-rocket" style="color: #004558;"></span> or 
-                        <span class="fas fa-rocket" style="color: #c0c000;"></span> ) identifies sections that you can read to learn about the low-level concepts that form the basis for computer technology.
-                    </li>
-                </ul>
+                <table class="table" style="box-shadow: 0px 5px 15px 0px #585858;"> 
+                    <thead> 
+                        <tr> 
+                            <th style="background-color: #eeeeee; min-width: 80px;">Icon</th> 
+                            <th style="background-color: #eeeeee;">Name</th> 
+                            <th style="background-color: #eeeeee;">What it identifies</th>
+                        </tr>                         
+                    </thead>                     
+                    <tbody> 
+                        <tr> 
+                            <td><span class="fas fa-seedling" style="color: #004558;"></span> or  <span class="fas fa-seedling" style="color: #c0c000;"></span> (or no icon)</td> 
+                            <td>Seedling</td> 
+                            <td>High-level content that everyone should read, whether you're just interested in the basics, or you plan to delve deeper.</td>
+                        </tr>                         
+                        <tr> 
+                            <td><span class="fas fa-flask" style="color: #004558;"></span> or  <span class="fas fa-flask" style="color: #c0c000;"></span></td> 
+                            <td>Flask</td> 
+                            <td>Sections that you can read to get a deeper insight into the way computers work.</td>
+                        </tr>                         
+                        <tr> 
+                            <td><span class="fas fa-rocket" style="color: #004558;"></span> or  <span class="fas fa-rocket" style="color: #c0c000;"></span> </td> 
+                            <td>Rocket</td> 
+                            <td>Sections that you can read to learn about the low-level concepts that form the basis for computer technology.</td>
+                        </tr>                         
+                    </tbody>                     
+                </table>
                 <p><b>But don't be intimidated</b> by the more advanced levels! Everyone is capable of understanding all the material on this site. If you're unsure how much you want to know, start with the <span class="fas fa-seedling" style="color: #004558;"></span> levels, and try reading the <span class="fas fa-flask" style="color: #004558;"></span> content as you encounter it. You'll soon discover your level of interest.</p>
                 <div class="d-flex mb-3">
                     <button type="button" class="btn btn-sm btn-secondary mb-auto" data-toggle="collapse" data-target="#Note_knowledge" style="border-style: outset; border-top-color: #b5b5b5; border-bottom-color: #000000; border-left-color: #b5b5b5; border-right-color: #000000; margin-right: 6px;">NOTE:</button>
@@ -133,7 +142,7 @@
                         <p>Consider a typical tool like a hammer. Hammers are designed with only one purpose: to hit things. (Some hammers can also pry things apart.)</p>
                         <p>A computer, on the other hand, is the first tool in history that’s designed to do an unlimited number of things with <a style="cursor: pointer; color: #0000ff; border-bottom: 1px solid #0000ff;" data-content="&quot;Data&quot; is technically a plural term meaning &quot;facts&quot; (numbers, in the case of computers). To keep things simple, we're going to use it as both plural and singular." data-toggle="popover" data-trigger="click" data-placement="auto" data-html="true">data</a>. (And it can also use data to control actual devices and tools, including hammers.) </p>
                         <a name="tasks" class="pushdown"></a>
-                        <h4>Essential computer tasks</h4>
+                        <h4><span class="fas fa-flask" style="color: #004558;"></span> Essential computer tasks</h4>
                         <p>On this site, we use the term "computing" to refer to all of the tasks that are essential to producing usable results. These very generic tasks are common to almost every modern computer, including:</p>
                         <ul>
                             <li>Manipulating data and hardware as directed by instructions</li>
@@ -148,9 +157,9 @@
                             <a name="components" class="pushdown"></a>
                             <h4>Breaking it down</h4>
                             <p>Every computer has three categories of components:</p>
-                            <div class="row mr-n4 ml-1">
+                            <div class="row mr-n4 ml-1" style="box-shadow: 0px 5px 15px 0px #585858;">
                                 <div style="border: 1px solid #a1a100; background-color: #eeeeee;" class="col-md-4">
-                                    <h5 class="font-weight-bold" style="line-height: 40px;">Hardware<a href="hardware.html" class="text-decoration-none" target="_self"> &nbsp; <span class="fas fa-arrow-circle-right mb-n1" style="font-size: 24px;"></span></a></h5>
+                                    <h5 class="font-weight-bold" style="line-height: 40px;">Hardware &nbsp; <a href="hardware.html" target="_self"><span class="fas fa-arrow-circle-right mb-n1" style="font-size: 24px;"></span></a></h5>
                                     <p>(Things you can touch)</p>
                                     <p>Here's the minimum set of hardware components necessary to create a usable computer:</p>
                                     <ul>
@@ -158,16 +167,16 @@
                                             <span class="fas fa-flask" style="color: #004558;"></span> Core hardware
                                             <ul>
                                                 <li class="ml-n3">A 
-                                                    <b><a href="hardware.html#cpu">central processing unit</a></b> (CPU) to manipulate data.
+                                                    <b><a href="hardware.html#cpu" target="_self">central processing unit</a></b> (CPU) to manipulate data.
                                                 </li>                                                 
                                                 <li class="ml-n3">A 
-                                                    <b>read-only memory chip</b> (ROM) to hold the computer’s basic startup and operating instructions.
+                                                    <b><a href="hardware.html#rom" target="_self">read-only memory chip</a></b> (ROM) to hold the computer’s basic startup and operating instructions.
                                                 </li>
                                                 <li class="ml-n3"> 
-                                                    <b>High speed memory chips</b> (RAM) to hold the data and instructions that are currently being used by the CPU.
+                                                    <b><a href="hardware.html#ram" target="_self">High speed memory chips</a></b> (RAM) to hold the data and instructions that are currently being used by the CPU.
                                                 </li>                                                 
                                                 <li class="ml-n3"> 
-                                                    <b>Electronic circuitry</b> to enable the components to communicate with each other. This includes 
+                                                    <b><a href="hardware.html#circuitry" target="_self">Electronic circuitry</a></b> to enable the components to communicate with each other. This includes 
                                                     <i>ports</i> for connecting external devices (such as 
                                                     <i>USB</i> ports) and power.
                                                 </li>
@@ -175,25 +184,25 @@
                                         </li>
                                         <li class="ml-n3">
                                             <span class="fas fa-seedling" style="color: #004558;"></span> An 
-                                            <b>input device</b> to tell the computer what data to process and how to process it.
+                                            <b><a href="hardware.html#input-devices" target="_self">input device</a></b> to tell the computer what data to process and how to process it.
                                         </li>                                         
                                         <li class="ml-n3">
                                             <span class="fas fa-seedling" style="color: #004558;"></span> An 
-                                            <b>output device</b> to show you the results of processing,
+                                            <b><a href="hardware.html#output-devices" target="_self">output device</a></b> to show you the results of processing,
                                         </li>                                         
                                         <li class="ml-n3">
                                             <span class="fas fa-seedling" style="color: #004558;"></span> A 
-                                            <b>storage device</b> to hold programs and documents.
+                                            <b><a href="hardware.html#storage-devices" target="_self">storage device</a></b> to hold programs and documents.
                                         </li>                                         
                                         <li class="ml-n3">
                                             <span class="fas fa-seedling" style="color: #004558;"></span> A 
-                                            <b>communication device</b> to connect the computer to the rest of the world.
+                                            <b><a href="hardware.html#comm-devices" target="_self">communication device</a></b> to connect the computer to the rest of the world.
                                         </li>                                         
                                     </ul>                                     
                                     <p class="text-right"><a href="hardware.html" class="text-decoration-none" target="_self">Hardware page &nbsp;<span class="fas fa-arrow-circle-right mb-n1" style="font-size: 24px;"></span></a></p>
                                 </div>
                                 <div class="col-md-4" style="border: 1px solid #a1a100; background-color: #eeeeee;">
-                                    <h5 class="font-weight-bold" style="line-height: 40px;">Software<a href="software.html" class="text-decoration-none" target="_self"> &nbsp; <span class="fas fa-arrow-circle-right mb-n1" style="font-size: 24px;"></span></a></h5> 
+                                    <h5 class="font-weight-bold" style="line-height: 40px;">Software &nbsp; <a href="software.html" target="_self"><span class="fas fa-arrow-circle-right mb-n1" style="font-size: 24px;"></span></a></h5> 
                                     <p>(Data and instructions)</p>
                                     <p>Here's the minimum set of software components necessary to create a usable computer:</p> 
                                     <ul> 
@@ -229,7 +238,7 @@
                                     <p class="text-right"><a href="software.html" class="text-decoration-none" target="_self">Software page &nbsp;<span class="fas fa-arrow-circle-right mb-n1" style="font-size: 24px;"></span></a></p>
                                 </div>
                                 <div class="col-md-4" style="border: 1px solid #a1a100; background-color: #eeeeee;">
-                                    <h5 class="font-weight-bold" style="line-height: 40px;">Rules and conventions<a href="rules.html" class="text-decoration-none" target="_self"> &nbsp; <span class="fas fa-arrow-circle-right mb-n1" style="font-size: 24px;"></span></a></h5> 
+                                    <h5 class="font-weight-bold" style="line-height: 40px;">Rules and conventions &nbsp; <a href="rules.html" target="_self"><span class="fas fa-arrow-circle-right mb-n1" style="font-size: 24px;"></span></a></h5> 
                                     <p>(Ways of doing things)</p>
                                     <p><span class="fas fa-seedling" style="color: #004558;"></span> Because a computer's hardware and software components can be produced by different manufacturers, the components must use agreed-upon rules and conventions to communicate with each other and with other systems.</p>
                                     <ul> 
@@ -261,7 +270,7 @@
                                         </li>                                         
                                     </ul>
                                     <p>You'll find various rules and conventions cropping up in any discussion of computer activity.</p>
-                                    <p class="text-right"><a href="rules.html" class="text-decoration-none" target="_self">Rules and conventions page &nbsp;<span class="fas fa-arrow-circle-right mb-n1" style="font-size: 24px;"></span></a></p>
+                                    <p class="text-right"><a href="rules.html" target="_self" class="text-decoration-none">Rules and conventions page &nbsp;<span class="fas fa-arrow-circle-right mb-n1" style="font-size: 24px;"></span></a></p>
                                 </div>
                             </div>
                             <p class="mt-3">These categories aren't always distinct from each other. Hardware often has some software built into its electronics; software frequently has to comply with rules and conventions; and hardware must comply with certain rules and conventions as well.</p>

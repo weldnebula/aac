@@ -74,14 +74,14 @@
                     <a class="dropdown-item" href="#input-devices">Input Devices <span class="fas fa-seedling" style="color: #004558;"></span></a> 
                     <a class="dropdown-item" href="#output-devices">Output Devices <span class="fas fa-seedling" style="color: #004558;"></span></a> 
                     <a class="dropdown-item" href="#storage-devices">Storage Devices <span class="fas fa-seedling" style="color: #004558;"></span></a> 
-                    <a class="dropdown-item" href="#communication-devices">Communication Devices <span class="fas fa-seedling" style="color: #004558;"></span></a>
+                    <a class="dropdown-item" href="#comm-devices">Communication Devices <span class="fas fa-seedling" style="color: #004558;"></span></a>
                 </div>                 
             </div>
         </div>
         <div style="z-index: 5; margin-top: 120px; border-top-color: #262626; margin-bottom: 80px; padding-top: 12px;" class="container-fluid pl-lg-5 pr-lg-5 ">
             <p style="font-family: Expletus Sans; font-size: 24px;" class="text-center font-weight-bold">Hardware&nbsp;(Things You Can Touch)</p>
             <p>Computer hardware is the set of devices that combine to do the computing. This page introduces the eight types of hardware that every computer must have in order to perform its <a href="index.html#tasks" target="_self">essential tasks</a>.</p>
-            <p class="mr-3 text-right"><span class="fas fa-seedling" style="color: #004558;"></span> <a href="#input-devices" target="_self">Skip to the high-level stuff</a> <span class="fas fa-seedling" style="color: #004558;"></span></p>
+            <p class="mr-3 text-right"><span class="fas fa-seedling" style="color: #004558;"></span> <a href="#input-devices" target="_self">Skip to the high-level stuff</a></p>
             <div class="container-fluid">
                 <div class="row d-block">
                     <div style="background-color: #004558; border-bottom: 3px solid #a1a100; box-shadow: 0px 5px 15px 0px #585858;" class="text-light pl-3 pt-2 pb-0">
@@ -138,7 +138,10 @@
                                 <h4 style="font-family: Expletus Sans; font-variant: small-caps;"><span class="fas fa-flask" style="color: #c0c000;"></span> Main Circuitry (Motherboard)</h4>
                             </div>
                             <div style="padding-top: 12px;">
-                                <img src="media/1200px-Acer_E360_Socket_939_motherboard_by_Foxconn.svg.png" style="cursor: pointer; border: 2px solid #0000ff;" width="150px" data-toggle="modal" data-target="#motherboard" class="mt-1 float-right ml-3 " alt="Motherboard image">
+                                <div class="float-right mb-n3 ml-3 mt-1">
+                                    <img src="media/1200px-Acer_E360_Socket_939_motherboard_by_Foxconn.svg.png" style="cursor: pointer; border: 2px solid #0000ff;" width="150px" data-toggle="modal" data-target="#motherboard" alt="Motherboard image">
+                                    <p style="font-size: 14px; color: #004558;" class="text-center ">Click image to enlarge</p>
+                                </div>
                                 <div class="modal" id="motherboard" tabindex="-1" aria-hidden="true"> 
                                     <!--  modal-dialog-centered modal-dialog-scrollable -->
                                     <div class="modal-lg mw-100"> 
@@ -166,17 +169,66 @@
                         <h3 style="font-family: Expletus Sans; font-variant: small-caps;"><span class="fas fa-seedling" style="color: #c0c000;"></span> Input Devices</h3>
                     </div>
                     <div style="padding-top: 12px;">
-                        <img src="media/keyboard-mouse.jpg" style="border: 2px solid #a1a100;" class="mt-1 float-right ml-3 " height="100px" alt="Keyboard and mouse image">
                         <p>There are many different ways you can provide data and instructions to a computer, and many different types of input devices that enable you to do so. An input device might be plugged into an external port or jack on a computer (like a <i>mouse</i>), or installed in the computer's case (like the <i>touchscreen</i> on a phone). External devices can also be connected wirelessly, using Bluetooth or Wi-Fi.</p>
                         <h4>Types of input devices</h4>
-                        <p>Input devices might be built into a computer, plugged into a <i>port</i> (jack) in the computer case, or connected to the computer by a wireless signal.</p>
+                        <p>Input devices can be built into a computer, plugged into a <i>port</i> (jack) in the computer case, or connected to the computer by a wireless signal.</p>
+                        <table> 
+                            <tbody> 
+                                <tr class=""> 
+                                    <td class="float-right text-right">
+                                        <b>Keyboard:</b>
+                                        <br>
+                                        <img src="media/Cherry-keyboard-big-Enter.jpg" style="border: 2px solid #a1a100;" height="100px" alt="Keyboard image" class="text-right">
+                                    </td>                                     
+                                    <td class="pl-2 align-top pb-2">A set of 70-120 typewriter-style keys. Pressing a key on the keyboard sends a signal identifying that key to the computer.</td> 
+                                </tr>                                 
+                                <tr> 
+                                    <td class="float-right text-right">
+                                        <b>Mouse:</b>
+                                        <br>
+                                        <img src="media/Microsoft_IntelliMouse_Optical_Black.jpg" style="border: 2px solid #a1a100;" height="100px" alt="Mouse image">
+                                    </td>                                     
+                                    <td class="pl-2 align-top pb-2">A&nbsp; device usually about the size of a deck or two of playing cards, with one or more buttons attached. When you move the mouse around on a convenient flat surface, a pointer appears on the screen that responds according to the movement. Pressing a button on the mouse sends a signal indicating that you want to initiate some action at the location of the pointer.</td> 
+                                </tr>                                 
+                                <tr> 
+                                    <td class="float-right text-right">
+                                        <b>Trackball:</b>
+                                        <br>
+                                        <img src="media/Trackball-Kensington-ExpertMouse5.jpg" style="border: 2px solid #a1a100;" height="100px" alt="Trackball image">
+                                    </td>                                     
+                                    <td class="pl-2 align-top pb-2">A smooth sphere, varying from the size of a marble to that of a pool ball, mounted in a housing with one or more accompanying buttons. The ball sticks out of the housing so you can rotate it in any direction. A pointer appears on the screen that responds according to the direction and speed of the ball's rotation. Pressing a button sends a signal indicating that you want to initiate some action at the location of the pointer.</td> 
+                                </tr>                                 
+                                <tr> 
+                                    <td>the Bird</td> 
+                                    <td>@twitter</td> 
+                                </tr>                                 
+                                <tr> 
+                                    <td>the Bird</td> 
+                                    <td>@twitter</td> 
+                                </tr>                                 
+                                <tr> 
+                                    <td>the Bird</td> 
+                                    <td>@twitter</td> 
+                                </tr>                                 
+                                <tr> 
+                                    <td>the Bird</td> 
+                                    <td>@twitter</td> 
+                                </tr>                                 
+                                <tr> 
+                                    <td>the Bird</td> 
+                                    <td>@twitter</td> 
+                                </tr>                                 
+                                <tr> 
+                                    <td>the Bird</td> 
+                                    <td>@twitter</td> 
+                                </tr>                                 
+                                <tr> 
+                                    <td>the Bird</td> 
+                                    <td>@twitter</td> 
+                                </tr>                                 
+                            </tbody>                             
+                        </table>
                         <ul> 
-                            <li>
-                                <b>Keyboard</b> — a set of 70-120 typewriter-style keys. Pressing a key on the keyboard sends a signal identifying that key to the computer.
-                            </li>
-                            <li>
-                                <b>Mouse</b> — a device usually about the size of a deck or two of playing cards, with one or more buttons attached. When you move the mouse around on a convenient flat surface, a pointer appears on the screen that responds according to the movement. Pressing a button on the mouse sends a signal indicating that you want to initiate some action at the location of the pointer.
-                            </li>
                             <li>
                                 <b>Trackball</b> — a smooth sphere, varying from the size of a marble to that of a pool ball, mounted in a housing with one or more accompanying buttons. The ball sticks out of the housing so you can rotate it in any direction. A pointer appears on the screen that responds according to the direction and speed of the ball's rotation. Pressing a button sends a signal indicating that you want to initiate some action at the location of the pointer.
                             </li>
@@ -227,7 +279,7 @@
                 </div>
                 <div class="row d-block">
                     <div style="background-color: #004558; border-bottom: 3px solid #a1a100; box-shadow: 0px 5px 15px 0px #585858;" class="text-light pl-3 pt-2 pb-0">
-                        <a name="communication-devices" class="pushdown"></a>
+                        <a name="comm-devices" class="pushdown"></a>
                         <h3 style="font-family: Expletus Sans; font-variant: small-caps;"><span class="fas fa-seedling" style="color: #c0c000;"></span> Communication Devices</h3>
                     </div>
                     <div style="padding-top: 12px;">
