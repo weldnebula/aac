@@ -1,29 +1,29 @@
-/* .breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item + .breadcrumb-item::before {
     content: ">";
 }
 
-.nb-color-greenblue {
-    background-color: #004558;
-}
-
-.nb-logo-font {
-    font-size: 16px;
-    line-height: 9px;
-    font-family: Expletus Sans;
-    font-weight: 700;
-}
-
-.nb-title-font {
-    font-size: 42px;
-    color: #ffffff;
-    font-family: Yanone Kaffeesatz;
-}
-*/
-.pushdown {
+/* .pushdown {
     display: block;
     content: " ";
     margin-top: -120px;
     height: 120px;
     visibility: hidden;
     pointer-events: none;
+} */
+.toggle-head:after {
+    content: "\0025bc";
 }
+
+[data-toggle="collapse"].collapsed .toggle-head:before {
+    content: "\0025b2";
+}
+
+/* [data-toggle="collapse"] .toggle-head:before {
+    content: "\f139";
+} */
+/* [data-toggle="collapse"].collapsed .toggle-head:before {
+    content: "\f13a";
+} */
+/* .toggle-head.collapsed:after {
+    content: "\0025b2";
+} */
